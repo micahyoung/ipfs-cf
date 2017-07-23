@@ -29,9 +29,9 @@ The `test.sh` script will:
 ## Usage
 
 * Log in to Cloud Foundry and target an org and space
-```
-cf login -a https://api.your-cf.com -u your-email@example.com -o your-org -s your-space
-```
+  ```
+  cf login -a https://api.your-cf.com -u your-email@example.com -o your-org -s your-space
+  ```
 
 * Run `up.sh` and wait for it to finish
 
