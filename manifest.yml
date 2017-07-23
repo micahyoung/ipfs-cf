@@ -1,0 +1,7 @@
+---
+applications:
+- name: ipfs
+  command: bash -c './ipfs daemon --init'
+  health-check-type: process
+  buildpack: binary_buildpack
+  no-route: true
